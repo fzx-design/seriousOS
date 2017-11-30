@@ -6,6 +6,19 @@
 #welcome_door{
   width: 60%;
   height: 100%;
+  float: left;
   background-image: linear-gradient(to top, #e3e3e3, #fafafa);
   border-right: solid 2px #000000;
+}
+#welcome_door_frame{
+  width: 60px;
+  height: 100%;
+  float: left;
+  background-image: linear-gradient(to top, #c9c9c9 1%, #f1f1f1);
+}
+#welcome_door_shadow{
+  width: 10px;
+	height: 100%;
+  float: left;
+	background-image: linear-gradient(to top, #a2a2a2, #bfbfbf);
 }
