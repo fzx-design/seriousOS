@@ -107,3 +107,45 @@ img{
 	color: #ffffff;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+#menu_bar_date{
+  float: right;
+  margin-right: 20px;
+  margin-top: 16px;
+  width: 77px;
+	height: 36px;
+  background-image: url(src/menu_bar_time.svg);
+  background-repeat: no-repeat;
+}
+#desktop_container{
+  position: absolute;
+  width: 100%;
+  margin-top: 100px;
+}
+#app_mail{
+  width: 700px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(src/mail_app.png);
+}
+#todo_list{
+  float: right;
+  margin-right: 30px;
+  width: 207px;
+	min-height: 120px;
+	border-radius: 4px;
+	background-color: #f8e71c;
+	box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.3);
+}
+#todo_title_bg{
+  width: 191px;
+	height: 36px;
+  padding-top: 4px;
+  padding-left: 16px;
+	background-color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+	font-weight: 600;
+	letter-spacing: -0.3px;
+	text-align: left;
+	color: #595313;
+}

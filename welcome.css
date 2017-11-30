@@ -22,3 +22,13 @@
   float: left;
 	background-image: linear-gradient(to top, #a2a2a2, #bfbfbf);
 }
+#welcome_door_lock{
+  position: fixed;
+  margin-left: calc(50% - 100px);
+  margin-top: 10%;
+  width: 200px;
+	height: 500px;
+  background-image: url(src/panel.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
